@@ -1,0 +1,12 @@
+.inline {
+  display: inline;
+  font-size: large;
+}
+.block {
+  display: block;
+  font-size: large;
+}
+.inline_block {
+  display: inline-block;
+  font-size: large;
+}
