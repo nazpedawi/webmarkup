@@ -1,0 +1,8 @@
+body{
+  color: rgb(100, 15, 100);
+  font-size: large;
+  border-width: 1em;
+  border-color: blueviolet;
+  border-style: double;
+  background-color: blanchedalmond;
+}
