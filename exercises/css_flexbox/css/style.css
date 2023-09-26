@@ -1,0 +1,47 @@
+section {
+  display: flex;
+  flex-grow: 1;
+}
+
+.left {
+width: 25%;
+background-color: aquamarine;
+}
+
+.center {
+width:50%;
+background-color: blueviolet;
+}
+
+.right{
+width:25%;
+background-color: aquamarine;
+}
+
+.box{
+  padding:20px;
+  font-size: 50px;
+  text-align: center;
+}
+
+body {
+display:flex;
+min-height: 100vh;
+flex-direction: column;
+justify-content: space-between;
+}
+
+header, footer {
+  min-height: 60px;
+}
+
+header {
+background-color: lightgreen;
+}
+
+footer{
+  background-color: lightcoral;
+}
+
+
+  
