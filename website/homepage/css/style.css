@@ -30,6 +30,16 @@ a{
     text-decoration: none;
 }
 body {
-    background-color: rgb(5, 5, 125);
+    background-color: rgb(87, 87, 220);
 }
 
+img {
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+
+.home {
+    background-color: rgb(63, 63, 164);
+}
