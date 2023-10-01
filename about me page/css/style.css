@@ -5,7 +5,7 @@ h1 {
 }
 
 body {
-  background-color: rgb(48, 9, 9);
+  background-color: rgb(78, 47, 47);
   color: white;
   font-size: larger;
   display: block;
@@ -16,23 +16,13 @@ img {
   height: 500px;
   margin-left: 30px;
   margin-top: 3%;
-
 }
+
 .name {
   position: absolute;
   top: 42%;
-  right: 27%;
-}
-
-.student {
-  position: absolute;
-  top: 50%;
-  right: 8%;
-}
-
-section 
-{
-  text-align: left;
+  right: 15%;
+  text-align: center;
 }
 
 footer {
