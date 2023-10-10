@@ -30,6 +30,15 @@ a{
     text-decoration: none;
 }
 body {
-    background-color: rgb(5, 5, 125);
+    background-color: rgba(0, 112, 192, 1);
 }
 
+.residency {
+background-color: rgba(1, 94, 161, 1);
+}
+img {
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 6px;
+}

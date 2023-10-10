@@ -30,7 +30,7 @@ a{
     text-decoration: none;
 }
 body {
-    background-color: rgb(87, 87, 220);
+    background-color: rgba(0, 112, 192, 1);
 }
 
 img {
@@ -40,7 +40,7 @@ img {
     margin-top: 6px;
 }
 .education {
-    background-color: rgb(63, 63, 164);
+    background-color: rgba(1, 94, 161, 1);
 }
 
 section {
