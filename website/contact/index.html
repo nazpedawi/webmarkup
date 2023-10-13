@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
+    <title>Contact page</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
   </head>
   <body>
+    <header>
     <nav>
      <a class = "nav home" href="../homepage/index.html"> Home</a>
      <a class = "nav activities" href="../activities/index.html"> Activities</a>
@@ -17,13 +18,14 @@
     </nav>
 
     <figure>
-      <img src="./img/website-logo.png" alt="website logo">
+      <img src="./img/website-logo.png" alt="website logo" title="the website logo">
     </figure>
-
+</header>
     <section class ="box">
       <h1>Have any Questions or Requests? </h1>
-      <h2>Required fields are marked with *</h2>
-      <br>
+      <h2> 
+        <em> Required fields are marked with *</em> 
+      </h2>
       <form action="https://coolinhollanddemo.azurewebsites.net/" method="POST">
         <label class="title">Title *</label>
 
@@ -49,7 +51,9 @@
         <input type="submit" value="Submit">
       </form>
     </section>
-
+    <footer>
+      <p> &copy; 2023 All rights reserved.</p>
+  </footer>
    
 </body>
 </html>
