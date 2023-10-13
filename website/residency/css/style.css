@@ -1,44 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Varta');
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+body {
+    background-color: rgba(0, 112, 192, 1);
+    z-index: 0;
+}
 .nav {
-    width: 1000px;
+    width: 200px;
     height: 70px;
     background-color: black;
     margin:0px;
     padding: 25px;
-    font-size: large;
+    font-size: 20px;
     text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
 }
-
 nav {
     display: flex;
     width: 1000px;
-    height: 1000px;
-    border-style: none;
-    flex-direction: row;
-    justify-content:center;
-    font-size: large;
-    position: absolute;
-    left: 270px;
-    top: 20px;
-}
-a{
+    height: 100px;
     color: white;
-    text-decoration: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 200px;
+    top: 8px;
 }
-body {
-    background-color: rgba(0, 112, 192, 1);
-}
-
-.residency {
-background-color: rgba(1, 94, 161, 1);
+.housing {
+    background-color: rgba(0, 77, 132, 1);
+    font-weight: bold;
+    font-size: 22px;
 }
 img {
     width: 200px;
     height: 100px;
-    margin-left: 40px;
-    margin-top: 6px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.box{
+    width: 700px;
+    height: 600px;
+    background-color: rgba(0, 82, 141, 1);
+    color: white;
+    border-radius: 11px;
+    z-index: 1;
+    align: center;
+    padding: 30px;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Varta', sans-serif;
+}
+.box h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 135px;
+    left: 340px;
+    background-color: none;
+    font-size: 35px;
+}
+.CTAs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 470px;
+    left: 450px;
+}
+.CTAs a {
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    margin: 3px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
