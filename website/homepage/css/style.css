@@ -60,18 +60,26 @@ img {
     margin-bottom: 30px;
     font-family: 'Varta', sans-serif;
     letter-spacing: 0.5px;
-    line-height: 23px;
+    line-height: 30px;
     word-spacing: 1.5px;
+    text-align: justify;
 }
-.box h2 {
+.box h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     position: absolute;
-    top: 135px;
+    top: 140px;
     left: 340px;
     background-color: none;
     font-size: 35px;
 }
+.p1 {
+    margin-bottom: 15px;
+}
+.p2 {
+    margin-bottom: 15px;;
+}
+
 .CTAs {
     display: flex;
     justify-content: space-around;
@@ -80,7 +88,7 @@ img {
     text-align: center;
     align-items: center;
     position: absolute;
-    top: 470px;
+    top: 500px;
     left: 450px;
 }
 .CTAs a {
@@ -98,6 +106,7 @@ img {
 footer {
     text-align: center;
     color: #fff;
-    padding: 10px 0;
+    margin-bottom: 30px;
+    margin-right: 70px;
     font-family: 'Montserrat', sans-serif;
 }
