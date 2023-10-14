@@ -34,6 +34,7 @@ nav {
     left: 200px;
     top: 8px;
 }
+/* to show the active tab*/
 .housing {
     background-color: rgba(0, 77, 132, 1);
     font-weight: bold;
@@ -95,6 +96,7 @@ nav {
     text-align: justify;
     margin-top: 200px;
 }
+/* for the pictures to show as a column. each under the other one*/
 .castrovalva{
     display: flex;
     flex-direction: column;
@@ -115,6 +117,7 @@ nav {
     right: 170px;
     top: 285px;
 }
+/*to add some distaance between the pictures*/
 .castrovalva1, .castrovalva2, .schwartze1, .schwartze2 {
     margin-bottom: 10px;
 }
@@ -148,7 +151,7 @@ nav {
 h3 a{
     color: #fff;
     margin-left: -10px;
-    margin-right:30px;
+
 }
 h3{
     margin-top: 20px;
