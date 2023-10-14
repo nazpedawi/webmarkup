@@ -38,54 +38,62 @@ nav {
     font-weight: bold;
     font-size: 22px;
 }
-img {
+.logo {
     width: 200px;
     height: 100px;
     margin-left: 10px;
     margin-top: 3px;
 }
 .box{
-    width: 700px;
-    height: 600px;
+    width: 950px;
+    height: 450px;
     background-color: rgba(0, 82, 141, 1);
     color: white;
     border-radius: 11px;
     z-index: 1;
     align: center;
     padding: 30px;
-    margin-left: 250px;
+    margin-left: 120px;
     margin-top: 50px;
     margin-bottom: 30px;
     font-family: 'Varta', sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    word-spacing: 1.5px;
+    text-align: justify;
 }
-.box h2 {
+.box h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     position: absolute;
-    top: 135px;
-    left: 340px;
+    top: 140px;
+    left: 170px;
     background-color: none;
     font-size: 35px;
 }
-.CTAs {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    position: absolute;
-    top: 470px;
-    left: 450px;
+.p1 {
+    width:400px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    text-align: justify;
 }
-.CTAs a {
-    width: 250px;
-    height: 50px;
-    padding: 15px;
-    margin: 3px;
-    background-color: black;
+.p2{
+    width:250px;
+    margin-left: 15px;
+}
+.map {
+    width: 400px;
+    height: 330px;
+    position: absolute;
+    top: 220px;
+    right: 200px;
+}    
+footer {
+    text-align: center;
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 70px;
     font-family: 'Montserrat', sans-serif;
 }
