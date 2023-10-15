@@ -11,33 +11,44 @@ body {
 }
 .nav {
     width: 200px;
-    height: 70px;
-    background-color: black;
+    height: 50px;
+    background-color: none;
     margin:0px;
-    padding: 25px;
+    padding: 10px;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
 }
 nav {
     display: flex;
-    width: 1000px;
-    height: 100px;
+    width: 900px;
+    height: 50px;
     color: white;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: absolute;
     left: 200px;
-    top: 8px;
+    top:40px;
+}
+.nav:hover {
+    font-weight: bold;
+    font-size: 22px;
 }
 /* to show the user 'Contact' is active and that is where they are*/
 .contact {
-    background-color: rgba(0, 77, 132, 1);
+    background-color: black;
     font-weight: bold;
     font-size: 22px;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-left:-20px;
+    margin-top: 3px;
 }
 img {
     width: 200px;
@@ -135,6 +146,10 @@ textarea {
     border-width: 3px;
     border-style: solid;
 }
+input[type="submit"]:hover {
+    background-color: rgb(1, 65, 111);
+    font-size: 22px;
+}
 input[type="submit"] {
     background-color: black;
     color: #fff;
@@ -144,6 +159,8 @@ input[type="submit"] {
     position: absolute;
     left: 700px;
     bottom: -40px;
+    border-width: 0px;
+    border-radius: 20px;
 }
 input[type="tel"],
 input[type="text"] 
