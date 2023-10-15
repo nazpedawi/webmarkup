@@ -50,15 +50,9 @@ nav {
     margin-left:-20px;
     margin-top: 3px;
 }
-img {
-    width: 200px;
-    height: 100px;
-    margin-left: 10px;
-    margin-top: 3px;
-}
 .box{
     width: 700px;
-    height: 550px;
+    height: 570px;
     background-color: rgba(0, 82, 141, 1);
     color: white;
     border-radius: 11px;
@@ -87,38 +81,43 @@ img {
     position: absolute;
     left: 290px;
     bottom: 320px;
+    font-size: 20px;
 }
 .mr {
     position: absolute;
     left: 290px;
     bottom: 290px;
+    font-size: 20px;
 }
 .mrs {
     position: absolute;
     left: 350px;
     bottom: 290px;
+    font-size: 20px;
 }
 .name {
     position: absolute;
-    left: 450px;
-    bottom: 320px;
+    left: 480px;
+    bottom: 323px;
+    font-size: 20px;
 }
 input[type="text"] {
     position: absolute;
-    left: 450px;
+    left: 480px;
     bottom: 280px;
 }
 .email {
-    position: absolute;
-    left: 290px;
-    bottom: 230px;
+    margin-left: 10px;
+    position: relative;
+    top:120px;
+    font-size: 20px;
 }
 input[type="email"]{
     position: absolute;
     left: 290px;
     bottom: 200px;
-    width: 200px;
-    height: 27px;
+    width: 300px;
+    height: 35px;
     border-color: gray;
     border-width: 3px;
     border-style: solid;
@@ -126,7 +125,8 @@ input[type="email"]{
 .phonenumber {
     position: absolute;
     left: 290px;
-    bottom: 140px;
+    bottom: 143px;
+    font-size: 20px;
 }
 input[type="tel"]{
     position: absolute;
@@ -136,11 +136,14 @@ input[type="tel"]{
 .message {
     position: absolute;
     left: 290px;
-    bottom: 35px;
+    bottom: 50px;
+    font-size: 20px;
 }
 textarea {
     position: absolute;
-    bottom: -80px;
+    width: 400px;
+    height: 150px;
+    bottom: -100px;
     left: 290px;
     border-color:gray;
     border-width: 3px;
@@ -157,7 +160,7 @@ input[type="submit"] {
     height: 45px;
     font-size: 20px;
     position: absolute;
-    left: 700px;
+    left: 750px;
     bottom: -40px;
     border-width: 0px;
     border-radius: 20px;
@@ -166,8 +169,8 @@ input[type="tel"],
 input[type="text"] 
 {
     border-color: gray;
-    width: 180px;
-    height:27px;
+    width: 200px;
+    height:35px;
     padding: 10px;
     margin-bottom: 10px;
     border-width: 3px;
