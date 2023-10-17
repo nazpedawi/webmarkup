@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Varta');
-@import url('https://fonts.googleapis.com/css?family=Martel+Sans');
 * {
     margin: 0px;
     padding: 0px;
@@ -35,10 +34,10 @@ nav {
     left: 200px;
     top:40px;
 }
-.nav:hover {
+.home:hover, .contact:hover, .education:hover, .housing:hover, .about:hover{
     font-weight: bold;
-    font-size: 22px;
-}
+    font-size: 25px;
+} 
 .activities {
     background-color: black;
     font-weight: bold;

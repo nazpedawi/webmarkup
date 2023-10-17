@@ -34,10 +34,10 @@ nav {
     left: 200px;
     top:40px;
 }
-.nav:hover {
+.contact:hover, .activities:hover, .education:hover, .housing:hover, .about:hover{
     font-weight: bold;
-    font-size: 22px;
-}
+    font-size: 25px;
+} 
 /* to show the user 'Home' is active and that is where they are*/
 .home {
     background-color: black;

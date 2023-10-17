@@ -34,10 +34,10 @@ nav {
     left: 200px;
     top:40px;
 }
-.nav:hover {
+.home:hover, .activities:hover, .education:hover, .housing:hover, .about:hover{
     font-weight: bold;
-    font-size: 22px;
-}
+    font-size: 25px;
+} 
 /* to show the user 'Contact' is active and that is where they are*/
 .contact {
     background-color: black;
@@ -51,15 +51,15 @@ nav {
     margin-top: 3px;
 }
 .box{
-    width: 700px;
-    height: 570px;
+    width: 600px;
+    height: 750px;
     background-color: rgba(0, 82, 141, 1);
     color: white;
     border-radius: 11px;
     z-index: 1;
     align: center;
     padding: 30px;
-    margin-left: 250px;
+    margin-left: 290px;
     margin-top: 50px;
     margin-bottom: 30px;
     font-family: 'Varta', sans-serif;
@@ -76,46 +76,49 @@ nav {
 .box h2 {
     font-weight: 100;
     font-size: 20px;
+    position: absolute;
+    left:315px;
 }
 .title {
     position: absolute;
-    left: 290px;
-    bottom: 320px;
+    left: 315px;
+    bottom: 318px;
     font-size: 20px;
 }
 .mr {
     position: absolute;
-    left: 290px;
+    left: 315px;
     bottom: 290px;
     font-size: 20px;
 }
 .mrs {
     position: absolute;
-    left: 350px;
+    left: 390px;
     bottom: 290px;
     font-size: 20px;
 }
 .name {
     position: absolute;
-    left: 480px;
-    bottom: 323px;
+    left: 315px;
+    top: 323px;
     font-size: 20px;
 }
 input[type="text"] {
     position: absolute;
-    left: 480px;
-    bottom: 280px;
+    left: 315px;
+    top: 350px;
 }
 .email {
     margin-left: 10px;
-    position: relative;
-    top:120px;
+    position: absolute;
+    left:305px;
+    top:413px;
     font-size: 20px;
 }
 input[type="email"]{
     position: absolute;
-    left: 290px;
-    bottom: 200px;
+    left: 315px;
+    top: 440px;
     width: 300px;
     height: 35px;
     border-color: gray;
@@ -124,53 +127,58 @@ input[type="email"]{
 }
 .phonenumber {
     position: absolute;
-    left: 290px;
-    bottom: 143px;
+    left: 315px;
+    top: 504px;
     font-size: 20px;
 }
 input[type="tel"]{
     position: absolute;
-    left: 290px;
-    bottom: 100px;
+    left: 315px;
+    top: 530px;
+    height: 28px;
+    width: 200px;
+    border-color: gray;
+    border-width: 3px;
+    border-style: solid;
 }
 .message {
     position: absolute;
-    left: 290px;
-    bottom: 50px;
+    left: 315px;
+    bottom: -40px;
     font-size: 20px;
 }
 textarea {
     position: absolute;
-    width: 400px;
+    width: 550px;
     height: 150px;
-    bottom: -100px;
-    left: 290px;
+    bottom: -190px;
+    left: 315px;
     border-color:gray;
     border-width: 3px;
     border-style: solid;
 }
 input[type="submit"]:hover {
     background-color: rgb(1, 65, 111);
-    font-size: 22px;
+    font-size: 25px;
 }
 input[type="submit"] {
     background-color: black;
     color: #fff;
-    width: 140px;
-    height: 45px;
-    font-size: 20px;
+    width: 155px;
+    height: 55px;
+    font-size: 22px;
     position: absolute;
-    left: 750px;
-    bottom: -40px;
+    left: 506px;
+    bottom: -270px;
     border-width: 0px;
     border-radius: 20px;
 }
-input[type="tel"],
+input[type="email"],
 input[type="text"] 
 {
     border-color: gray;
-    width: 200px;
-    height:35px;
+    width: 260px;
+    height:32px;
     padding: 10px;
     margin-bottom: 10px;
     border-width: 3px;
