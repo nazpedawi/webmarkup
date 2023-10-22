@@ -95,6 +95,12 @@ nav {
     top: 220px;
     right: 200px;
 }    
+.caption {
+color: #fff;
+position: absolute;
+    top: 550px;
+    right: 305px;
+}
 footer {
     text-align: center;
     color: #fff;
