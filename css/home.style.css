@@ -50,12 +50,6 @@ nav {
     margin-left: -20px;
     margin-top: 3px;
 }
-img {
-    width: 200px;
-    height: 100px;
-    margin-left: 10px;
-    margin-top: 3px;
-}
 .box{
     display: block;
     width: 700px;
@@ -154,4 +148,118 @@ footer {
     margin-top: 20px;
     padding: 5px 10px;
     font-size: 17px;
+    border-width: 0px;
   }
+
+  @media screen and (max-width: 765px) {
+    .nav {
+        width: 80%;
+        height: 50px;
+        background-color: none;
+        margin:0px;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 20px;
+    }
+    nav {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        color: white;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        position: absolute;
+        left: 0px;
+        top:100px;
+    }
+    .box{
+        display: block;
+        width: 430px;
+        height: 900px;
+        color: white;
+        background-color: rgba(0, 82, 141, 1);
+        border-radius: 11px;
+        z-index: 1;
+        padding: 30px;
+        margin-left: 150px;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        font-family: 'Varta', sans-serif;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        word-spacing: 1.5px;
+        text-align: justify;
+    }
+    .box h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        position: absolute;
+        top: 105px;
+        left: 190px;
+        background-color: none;
+        font-size: 25px;
+        width: 400px;
+    }
+    .CTAs {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        position: absolute;
+        top: 680px;
+        left: 180px;
+    }
+    .CTAs a {
+        width: 380px;
+        height: 60px;
+        padding: 15px;
+        margin-top: 10px;
+        background-color: black;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 20px;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+    }
+    footer {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+        margin-left: 100px;
+        font-family: 'Montserrat', sans-serif;
+        width:96%;
+    }
+    .cookies {
+        background-color: rgba(57, 35, 35, 0.7);
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        width: 570px;
+        height: 180px;
+        font-size: 17px;
+        z-index: 9999;
+        border-radius: 10px;
+      }
+      .cookies button {
+        background-color: #4c10ac;
+        color: #fff;
+        width: 170px;
+        height: 55px;
+        border-radius: 10px;
+        margin-top: 30px;
+        padding: 5px 10px;
+        font-size: 17px;
+        border-width: 0px;
+      }
+}
