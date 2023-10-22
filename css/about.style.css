@@ -122,18 +122,18 @@ footer {
 }
 @media screen and (max-width: 765px) {
     .nav {
-         width: 80%;
+        width: 120px;
         height: 50px;
         background-color: none;
         margin:0px;
-        padding: 10px;
+        padding-left: 10px;
         font-size: 20px;
-        text-align: center;
+        text-align: left;
         text-decoration: none;
         color: white;
         font-family: 'Montserrat', sans-serif;
         border-radius: 20px;
-        }
+    }
     nav {
         display: flex;
         width: 100px;
@@ -143,12 +143,12 @@ footer {
         justify-content: left;
         align-items: left;
         position: absolute;
-        left: 0px;
+        left: 25px;
         top:100px;
     }
     .box{
         display: block;
-        width: 430px;
+        width: 440px;
         height: 890px;
         color: white;
         background-color: rgba(0, 82, 141, 1);
@@ -202,7 +202,7 @@ footer {
         height: 330px;
         position: absolute;
         top: 150px;
-        left: 165px;
+        left: 170px;
     }    
     footer {
         text-align: center;
