@@ -130,3 +130,28 @@ footer {
     margin-right: 70px;
     font-family: 'Montserrat', sans-serif;
 }
+.cookies {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 300px;
+    height: 190px;
+    font-size: 20px;
+    z-index: 9999;
+    border-radius: 10px;
+  }
+  
+  .cookies button {
+    background-color: #5b2ba8;
+    color: #fff;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+  }
