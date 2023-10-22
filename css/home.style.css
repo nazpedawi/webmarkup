@@ -84,6 +84,9 @@ img {
     background-color: none;
     font-size: 35px;
 }
+.p1, .p2 {
+    text-indent: 1em;
+}
 .p1 {
     margin-bottom: 15px;
 }

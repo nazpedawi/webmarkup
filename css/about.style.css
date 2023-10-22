@@ -51,7 +51,7 @@ nav {
 }
 .box{
     width: 950px;
-    height: 450px;
+    height: 550px;
     background-color: rgba(0, 82, 141, 1);
     color: white;
     border-radius: 11px;
@@ -78,6 +78,7 @@ nav {
     font-size: 35px;
 }
 .p1 {
+    text-indent: 1.5em;
     width:400px;
     margin-left: 15px;
     margin-bottom: 15px;
@@ -90,6 +91,14 @@ nav {
 .p2{
     width:250px;
     margin-left: 15px;
+}
+h2 {
+    font-size: 19px;
+    margin-top: 20px;
+    margin-left:12px;
+}
+ul {
+    margin-left: 27px;
 }
 .map {
     width: 400px;
