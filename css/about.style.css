@@ -122,7 +122,7 @@ footer {
 }
 @media screen and (max-width: 765px) {
     .nav {
-        width: 80%;
+         width: 80%;
         height: 50px;
         background-color: none;
         margin:0px;
@@ -133,11 +133,11 @@ footer {
         color: white;
         font-family: 'Montserrat', sans-serif;
         border-radius: 20px;
-    }
+        }
     nav {
         display: flex;
         width: 100px;
-        height: 50px;
+        height: 100px;
         color: white;
         flex-direction: column;
         justify-content: left;
@@ -146,4 +146,78 @@ footer {
         left: 0px;
         top:100px;
     }
+    .box{
+        display: block;
+        width: 430px;
+        height: 890px;
+        color: white;
+        background-color: rgba(0, 82, 141, 1);
+        border-radius: 11px;
+        z-index: 1;
+        padding: 30px;
+        margin-left: 150px;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        font-family: 'Varta', sans-serif;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        word-spacing: 1.5px;
+        text-align: justify;
+    }
+    .box h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        position: absolute;
+        top: 105px;
+        left: 200px;
+        background-color: none;
+        font-size: 25px;
+        width: 400px;
+    }
+    .p1 {
+        text-indent: 1.5em;
+        width:390px;
+        margin-left: -10px;
+        margin-bottom: 15px;
+        margin-top: 380px;
+        text-align: justify;
+    }
+    .p2::first-letter {
+        font-weight: bold;
+    }
+    .p2{
+        width:250px;
+        margin-left: -10px;
+    }
+    h2 {
+        font-size: 19px;
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+    ul {
+        margin-left: 5px;
+    }
+    .map {
+        width: 400px;
+        height: 330px;
+        position: absolute;
+        top: 150px;
+        left: 165px;
+    }    
+    footer {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+        margin-left: 120px;
+        font-family: 'Montserrat', sans-serif;
+        width:96%;
+        font-size: 20px;
+    }
+    .caption {
+        color: #fff;
+        position: absolute;
+            top: 490px;
+            left: 170px;
+            width: 400px;
+        }
 }
