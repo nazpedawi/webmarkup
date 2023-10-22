@@ -74,10 +74,21 @@ nav {
     font-size: 35px;
 }
 .box h2 {
-    font-weight: 100;
     font-size: 20px;
     position: absolute;
     left:315px;
+}
+legend {
+    position: relative;
+    top: 35px;
+    left: -5px;
+    font-size: 17px;
+}
+.box > input {
+    border-color: gray;
+    border-width: 4px;
+    border-style: solid;
+
 }
 .title {
     position: absolute;
@@ -121,8 +132,6 @@ input[type="email"]{
     top: 440px;
     width: 300px;
     height: 35px;
-    border-color: gray;
-    border-width: 3px;
     border-style: solid;
 }
 .phonenumber {
@@ -137,8 +146,6 @@ input[type="tel"]{
     top: 530px;
     height: 28px;
     width: 200px;
-    border-color: gray;
-    border-width: 3px;
     border-style: solid;
 }
 .message {
@@ -153,8 +160,6 @@ textarea {
     height: 150px;
     bottom: -190px;
     left: 315px;
-    border-color:gray;
-    border-width: 3px;
     border-style: solid;
 }
 input[type="submit"]:hover {
@@ -176,13 +181,10 @@ input[type="submit"] {
 input[type="email"],
 input[type="text"] 
 {
-    border-color: gray;
     width: 260px;
     height:32px;
     padding: 10px;
     margin-bottom: 10px;
-    border-width: 3px;
-    border-style: solid;
 }
 footer {
     text-align: center;

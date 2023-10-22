@@ -141,6 +141,13 @@ h3 a{
     margin-left: -10px;
     margin-right:30px;
 }
+h3 a:visited {
+    color: lightblue;
+}
+h3 a:hover {
+    color: yellow;
+    font-size: 19px;
+}
 h3{
     margin-top: 20px;
 }

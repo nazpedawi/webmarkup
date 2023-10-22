@@ -84,6 +84,9 @@ nav {
     margin-top: 30px;
     text-align: justify;
 }
+.p2::first-letter {
+    font-weight: bold;
+}
 .p2{
     width:250px;
     margin-left: 15px;

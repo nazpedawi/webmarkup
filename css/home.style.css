@@ -60,8 +60,8 @@ img {
     display: block;
     width: 700px;
     height: 670px;
-    background-color: rgba(0, 82, 141, 1);
     color: white;
+    background-color: rgba(0, 82, 141, 1);
     border-radius: 11px;
     z-index: 1;
     align: center;
@@ -118,7 +118,7 @@ img {
     border-radius: 20px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 footer {
     text-align: center;

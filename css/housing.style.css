@@ -155,7 +155,13 @@ nav {
 h3 a{
     color: #fff;
     margin-left: -10px;
-
+}
+h3 a:hover {
+    color: yellow;
+    font-size: 19px;
+}
+h3 a:visited {
+    color: lightblue;
 }
 h3{
     margin-top: 20px;

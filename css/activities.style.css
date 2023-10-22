@@ -148,7 +148,16 @@ h3 a{
     color: #fff;
     margin-left: -10px;
     margin-right:30px;
+    text-decoration: underline;
 }
+h3 a:visited {
+    color: lightblue;
+}
+h3 a:hover {
+    color: yellow;
+    font-size: 19px;
+}
+
 .box2 h3 {
     margin-top: 270px;
 }
