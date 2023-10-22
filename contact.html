@@ -1,67 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="./css/contact.style.css" />
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <meta name="author" content="Naz Pedawi">
-  </head>
-  <body>
-    <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="./css/contact.style.css" />
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <meta name="author" content="Naz Pedawi">
+</head>
+<body>
+  <header>
     <nav>
-     <<a class = "nav home" href="index.html"> Home</a>
-     <a class = "nav activities" href="activities.html"> Activities</a>
-     <a class = "nav education" href="education.html"> Education</a>
-     <a class = "nav housing" href="housing.html"> Housing</a>
-     <a class = "nav about" href="about.html"> About</a>
-     <a class = "nav contact" href="contact.html"> Contact</a>
+      <a class="nav home" href="index.html">Home</a>
+      <a class="nav activities" href="activities.html">Activities</a>
+      <a class="nav education" href="education.html">Education</a>
+      <a class="nav housing" href="housing.html">Housing</a>
+      <a class="nav about" href="about.html">About</a>
+      <a class="nav contact" href="contact.html">Contact</a>
     </nav>
-
     <figure>
       <img class="logo" src="./img/website-logo.png" alt="website logo" title="the website logo">
     </figure>
-</header>
-    <section class ="box">
-      <h1>Have any Questions or Requests? </h1>
-      <h2> 
-        <em> 
-          <strong>
-            Required fields are marked with *
-          </strong>
-         </em> 
-      </h2>
-      <form action="https://coolinhollanddemo.azurewebsites.net/" method="POST">
-
+  </header>
+  <section class="box">
+    <h1>Have any Questions or Requests?</h1>
+    <h2>
+      <em>
+        <strong>
+          Required fields are marked with *
+        </strong>
+      </em>
+    </h2>
+    <form action="https://coolinhollanddemo.azurewebsites.net/" method="POST">
+      <fieldset>
         <legend>Personal Information</legend>
         <label class="title">Title *</label>
-
         <label class="mr">
-        <input type="radio" name="title" value="mr" required> Mr
+          <input type="radio" name="title" value="mr" required> Mr
         </label>
         <label class="mrs">
-        <input type="radio" name="title" value="mrs" required> Mrs
+          <input type="radio" name="title" value="mrs" required> Mrs
         </label>
-
-        <label for="name" class="name">Full Name * </label>
+        <label for="name" class="name">Full Name *</label>
         <input type="text" id="name" name="name" required>
-
-        <label for="email" class="email">Email Address * </label>
+        <label for="email" class="email">Email Address *</label>
         <input type="email" id="email" name="email" required>
-
-        <label for="phone" class="phonenumber"> Phone Number </label>
+        <label for="phone" class="phonenumber">Phone Number</label>
         <input type="tel" id="phone" name="phone">
-  
-        <label for="message" class="message"> Message *</label>
-        <textarea id="message" name="message" rows="7" cols="40" required> </textarea>
-  
+        <label for="message" class="message">Message *</label>
+        <textarea id="message" name="message" rows="7" cols="40" required></textarea>
         <input type="submit" value="Submit">
-      </form>
-    </section>
-    <footer>
-      <p> &copy; 2023 All rights reserved.</p>
+      </fieldset>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 All rights reserved.</p>
   </footer>
-   
 </body>
 </html>
