@@ -173,3 +173,139 @@ footer {
     margin-right: 70px;
     font-family: 'Montserrat', sans-serif;
 }
+@media screen and (max-width: 765px) {
+    .nav {
+        width: 120px;
+        height: 50px;
+        background-color: none;
+        margin:0px;
+        padding-left: 10px;
+        font-size: 20px;
+        text-align: left;
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 20px;
+    }
+    nav {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        color: white;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        position: absolute;
+        left: 25px;
+        top:100px;
+    }
+    .box{
+        display: block;
+        width: 430px;
+        height: 1190px;
+        color: white;
+        background-color: rgba(0, 82, 141, 1);
+        border-radius: 11px;
+        z-index: 1;
+        padding: 30px;
+        margin-left: 145px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-family: 'Varta', sans-serif;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        word-spacing: 1.5px;
+        text-align: justify;
+    }
+    .box h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        position: absolute;
+        top: 107px;
+        left: 165px;
+        background-color: none;
+        font-size: 25px;
+        width: 390px;
+        line-height:28px;
+    }
+    .box h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        position: absolute;
+        top: 190px;
+        left: 170px;
+        font-size: 22px;
+        width:270px;
+
+    }
+    .box p {
+        width:400px;
+        margin-left: -15px;
+        margin-bottom: 15px;
+        margin-top: 740px;
+        text-align: justify;
+    }
+    .schwartzestraat{
+        display: flex;
+        flex-direction: column;
+        width:380px;
+        height:290px;
+        justify-content: space-between;
+        position: absolute;
+        left: 170px;
+        top: 260px;
+    }
+    .box2 {
+        width: 430px;
+        height: 1010px;
+        background-color: rgba(0, 82, 141, 1);
+        color: white;
+        border-radius: 11px;
+        z-index: 1;
+        align: center;
+        padding: 30px;
+        margin-left: 145px;
+        margin-bottom: 30px;
+        font-family: 'Varta', sans-serif;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        line-height: 30px;
+        word-spacing: 1.5px;
+        text-align: justify;
+        margin-top:-40px;
+    }
+    .box2 h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        position: absolute;
+        top: 1330px;
+        left: 170px;
+        font-size: 22px;
+        width:290px;
+    }
+    .box2 p {
+        width:400px;
+        margin-left: -10px;
+        text-align: justify;
+        margin-top: 460px;
+    }
+    .castrovalva{
+        display: flex;
+        flex-direction: column;
+        width:380px;
+        height:290px;
+        justify-content: space-between;
+        position: absolute;
+        left: 170px;
+        bottom:-790px;
+    }
+    footer {
+        text-align: center;
+        color: #fff;
+        margin-top: 5px;
+        margin-left: 90px;
+        font-family: 'Montserrat', sans-serif;
+        width:400px;
+        font-size: 20px;
+    }
+}
