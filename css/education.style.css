@@ -160,11 +160,11 @@ footer {
 }
 @media screen and (max-width: 765px) {
     .nav {
-        width: 120px;
+        width: 140px;
         height: 50px;
         background-color: none;
         margin:0px;
-        padding-left: 10px;
+        padding-left: 25px;
         font-size: 20px;
         text-align: left;
         text-decoration: none;
@@ -180,10 +180,21 @@ footer {
         flex-direction: column;
         justify-content: left;
         align-items: left;
-        position: absolute;
-        left: 25px;
-        top:100px;
+        position: fixed;
+        left: 15px;
+        top:120px;
     }
+    .menu {
+        height: 269px;
+        background-color: rgba(0, 82, 141, 1);
+        width:150px;
+        padding-left: 10px;
+        border-radius: 20px;
+        position: fixed;
+        top:120px;
+        left:-14px;
+        z-index: -1;
+      }
     .box{
         display: block;
         width: 430px;
@@ -233,7 +244,7 @@ footer {
         height: 250px;
         position: absolute;
         top: 235px;
-        right: -148px;
+        left: 160px;
     }    
     .box2 {
         width: 430px;
@@ -273,7 +284,7 @@ footer {
         height: 250px;
         position: absolute;
         top: 945px;
-        right: -148px;
+        left: 160px;
     }    
     footer {
         text-align: center;
