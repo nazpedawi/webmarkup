@@ -220,7 +220,7 @@ footer {
     }
     .box{
         display: block;
-        width: 510px;
+        width: 440px;
         height: 770px;
         color: white;
         background-color: rgba(0, 82, 141, 1);
@@ -241,26 +241,33 @@ footer {
         font-weight: bold;
         position: absolute;
         top: 105px;
-        left: 180px;
+        left: 170px;
         background-color: none;
-        font-size: 25px;
-        width: 500px;
+        font-size: 23px;
+        width: 430px;
     }
     .box h2 {
         font-size: 20px;
         position: absolute;
-        left: 178px;
+        left: 170px;
         width: 310px;
+    }
+    legend {
+        position: relative;
+        top: 35px;
+        left: -10px;
+        font-size: 17px;
+        height: 120px;
     }
     .title {
         position: absolute;
-        left: 195px;
+        left: 190px;
         bottom: 655px;
         font-size: 20px;
     }
     .mr {
         position: absolute;
-        left: 195px;
+        left: 200px;
         bottom: 630px;
         font-size: 20px;
     }
@@ -272,25 +279,25 @@ footer {
     }
     .name {
         position: absolute;
-        left: 178px;
+        left: 165px;
         top: 290px;
         font-size: 20px;
     }
     input[type="text"] {
         position: absolute;
-        left: 178px;
+        left: 165px;
         top: 320px;
     }
     .email {
         margin-left: 10px;
         position: absolute;
-        left:170px;
+        left:155px;
         top:385px;
         font-size: 20px;
     }
     input[type="email"]{
         position: absolute;
-        left: 178px;
+        left: 165px;
         top: 415px;
         width: 300px;
         height: 35px;
@@ -298,13 +305,13 @@ footer {
     }
     .phonenumber {
         position: absolute;
-        left: 178px;
+        left: 165px;
         top: 480px;
         font-size: 20px;
     }
     input[type="tel"]{
         position: absolute;
-        left: 178px;
+        left: 165px;
         top: 510px;
         height: 28px;
         width: 200px;
@@ -312,16 +319,16 @@ footer {
     }
     .message {
         position: absolute;
-        left: 178px;
+        left: 165px;
         bottom: 300px;
         font-size: 20px;
     }
     textarea {
         position: absolute;
-        width: 460px;
+        width: 410px;
         height: 150px;
         bottom: 150px;
-        left: 178px;
+        left: 165px;
         border-style: solid;
     }
     input[type="submit"] {
@@ -331,7 +338,7 @@ footer {
         height: 70px;
         font-size: 27px;
         position: absolute;
-        left: 320px;
+        left: 280px;
         bottom: 40px;
         border-width: 0px;
         border-radius: 20px;
@@ -350,7 +357,7 @@ footer {
         margin-bottom: 30px;
         margin-left: 120px;
         font-family: 'Montserrat', sans-serif;
-        width:96%;
+        width:380px;
         font-size: 20px;
     }
 }
