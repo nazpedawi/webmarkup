@@ -12,7 +12,6 @@ body {
 .nav {
     width: 200px;
     height: 50px;
-    background-color: none;
     margin:0px;
     padding: 10px;
     font-size: 20px;
@@ -57,7 +56,6 @@ nav {
     color: white;
     border-radius: 11px;
     z-index: 1;
-    align: center;
     padding: 30px;
     margin-left: 120px;
     margin-top: 50px;
@@ -75,7 +73,6 @@ nav {
     color: white;
     border-radius: 11px;
     z-index: 1;
-    align: center;
     padding: 30px;
     margin-left: 120px;
     margin-bottom: 30px;
@@ -131,7 +128,6 @@ nav {
     position: absolute;
     top: 135px;
     left: 140px;
-    background-color: none;
     font-size: 35px;
     width: 800px;
     line-height: 40px;
@@ -177,7 +173,6 @@ footer {
     .nav {
         width: 140px;
         height: 50px;
-        background-color: none;
         margin:0px;
         padding-left: 25px;
         font-size: 20px;
@@ -194,7 +189,6 @@ footer {
         color: white;
         flex-direction: column;
         justify-content: left;
-        align-items: left;
         position: fixed;
         left: 15px;
         top:120px;
@@ -234,7 +228,6 @@ footer {
         position: absolute;
         top: 107px;
         left: 165px;
-        background-color: none;
         font-size: 25px;
         width: 390px;
         line-height:28px;
@@ -273,7 +266,6 @@ footer {
         color: white;
         border-radius: 11px;
         z-index: 1;
-        align: center;
         padding: 30px;
         margin-left: 145px;
         margin-bottom: 30px;

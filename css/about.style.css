@@ -12,7 +12,6 @@ body {
 .nav {
     width: 200px;
     height: 50px;
-    background-color: none;
     margin:0px;
     padding: 10px;
     font-size: 20px;
@@ -56,7 +55,6 @@ nav {
     color: white;
     border-radius: 11px;
     z-index: 1;
-    align: center;
     padding: 30px;
     margin-left: 120px;
     margin-top: 50px;
@@ -74,7 +72,6 @@ nav {
     position: absolute;
     top: 140px;
     left: 170px;
-    background-color: none;
     font-size: 35px;
 }
 .p1 {
@@ -124,12 +121,10 @@ footer {
     .nav {
         width: 140px;
         height: 50px;
-        background-color: none;
         margin:0px;
         padding-left: 25px;
         font-size: 20px;
         text-align: left;
-        text-decoration: none;
         color: white;
         font-family: 'Montserrat', sans-serif;
         border-radius: 20px;
@@ -141,7 +136,6 @@ footer {
         color: white;
         flex-direction: column;
         justify-content: left;
-        align-items: left;
         position: fixed;
         left: 15px;
         top:120px;
@@ -181,7 +175,6 @@ footer {
         position: absolute;
         top: 105px;
         left: 200px;
-        background-color: none;
         font-size: 25px;
         width: 400px;
     }
